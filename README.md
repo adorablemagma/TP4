@@ -1,38 +1,22 @@
-\# TP4 : Docker et Docker Compose — Application MERN
+# TP4 DevOps - Docker + Jenkins
 
+Projet MERN : MongoDB + Express + React + Node
+- Client : React (Vite) → http://localhost:3000
+- Serveur : Node / Express → http://localhost:9000
+- Base : MongoDB → 27017
 
+Fait par : Ahmed Mechri
 
-\## 1. Chnowa el TP hedha ?
+L'idée du TP est simple : au lieu de lancer chaque partie à la main, on met tout dans Docker, on lance tout avec une seule commande, et Jenkins vérifie tout seul que ça marche.
 
+---
 
+## 1. Fork w Clone - bdit men houni
 
-El TP hedha bech na3mlou application MERN ( entity-MongoDB¦canonical\_name=MongoDB + entity-Express¦canonical\_name=Express + React + Node)
+Awwel 7aja 3malt Fork lel projet 3la 【entity-GitHub¦canonical_name=GitHub】 bech ywali 3andi copie mte3i najem nbadel fiha.
 
-tekhdem kemla fi Docker.
+Mba3ed cloneitou fi dossier `tp4_devops` 3andi :
 
-
-
-Fikra el TP : badal ma nsabbou entity-MongoDB¦canonical\_name=MongoD w Node 3la PC mte3na w na3mlou
-
-`npm install` w `npm start` fi kol dossier, bech na7otou kol partie
-
-fi "container" wa7dou, w Docker Compose bech ykhademhom el kol m3a b3adhhom
-
-b commande wa7da.
-
-
-
-El 3 parties :
-
-\- `mongodb` : base de données
-
-\- `server` : API Express (backend)
-
-\- `client` : application React (frontend)
-
-
-
-\## 2. Structure du projet
-
-
-
+```bash
+git clone https://github.com/adorablemagma/TP4.git
+cd TP4
